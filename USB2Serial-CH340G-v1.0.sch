@@ -13681,7 +13681,7 @@ Source: www.kingbright.com</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="33TR" value="AMS1117-3.3"/>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="33TR" value="AMS1117-3.3"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="CN2" library="SnapEDA-Library" deviceset="47346-0001" device=""/>
@@ -13699,7 +13699,7 @@ Source: www.kingbright.com</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38130/1"/>
+<part name="CN1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38130/1" value="UART"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SJ1" library="_my_jumpers" deviceset="SJ2" device="FI"/>
@@ -13729,7 +13729,8 @@ Source: www.kingbright.com</description>
 <text x="254" y="7.62" size="2.54" layer="94">v1.0</text>
 <text x="111.76" y="144.78" size="2.54" layer="94">3.3V generation</text>
 <text x="40.64" y="144.78" size="2.54" layer="94">LED indicators</text>
-<text x="177.8" y="144.78" size="2.54" layer="94">UART connector and VCC selection</text>
+<text x="175.26" y="144.78" size="2.54" layer="94">UART connector and VCC selection</text>
+<text x="165.1" y="27.94" size="2.54" layer="94">(c) Andriy Golovnya</text>
 </plain>
 <instances>
 <instance part="C3" gate="G$1" x="129.54" y="121.92" smashed="yes">
@@ -13744,7 +13745,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="138.684" y="122.301" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.684" y="117.221" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="G$1" x="119.38" y="129.54" smashed="yes">
+<instance part="IC1" gate="G$1" x="119.38" y="129.54" smashed="yes">
 <attribute name="NAME" x="111.76" y="134.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="134.62" size="1.778" layer="96"/>
 </instance>
@@ -13813,9 +13814,9 @@ Source: www.kingbright.com</description>
 <attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="180.34" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="J1" gate="G$1" x="218.44" y="121.92" smashed="yes" rot="R180">
-<attribute name="VALUE" x="223.52" y="131.826" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="223.52" y="111.252" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="CN1" gate="G$1" x="218.44" y="121.92" smashed="yes" rot="R180">
+<attribute name="VALUE" x="218.44" y="106.934" size="1.778" layer="96"/>
+<attribute name="NAME" x="218.44" y="109.728" size="1.778" layer="95"/>
 </instance>
 <instance part="GND1" gate="1" x="210.82" y="111.76" smashed="yes">
 <attribute name="VALUE" x="208.28" y="108.966" size="1.778" layer="96"/>
@@ -13824,7 +13825,7 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="88.9" y="81.534" size="1.778" layer="96"/>
 </instance>
 <instance part="SJ1" gate="G$1" x="187.96" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="187.579" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="185.42" y="132.461" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.865" y="132.08" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="195.58" y="132.08" smashed="yes">
@@ -13839,8 +13840,8 @@ Source: www.kingbright.com</description>
 <instance part="GND6" gate="1" x="172.72" y="76.2" smashed="yes">
 <attribute name="VALUE" x="170.18" y="73.406" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="187.96" y="83.82" smashed="yes">
-<attribute name="VALUE" x="185.42" y="86.614" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="G$1" x="187.96" y="81.28" smashed="yes">
+<attribute name="VALUE" x="185.42" y="84.074" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="119.38" y="111.76" smashed="yes">
 <attribute name="VALUE" x="116.84" y="108.966" size="1.778" layer="96"/>
@@ -13899,7 +13900,7 @@ Source: www.kingbright.com</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="IC2" gate="G$1" pin="ADJ"/>
+<pinref part="IC1" gate="G$1" pin="ADJ"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13922,7 +13923,7 @@ Source: www.kingbright.com</description>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="6"/>
+<pinref part="CN1" gate="G$1" pin="6"/>
 <wire x1="213.36" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
@@ -13944,7 +13945,7 @@ Source: www.kingbright.com</description>
 <junction x="109.22" y="129.54"/>
 <wire x1="109.22" y1="134.62" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="IN"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 </segment>
 <segment>
@@ -13985,7 +13986,7 @@ Source: www.kingbright.com</description>
 <junction x="137.16" y="129.54"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -14106,7 +14107,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="UART_DTR" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="CN1" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
 <label x="200.66" y="127" size="1.778" layer="95"/>
 </segment>
@@ -14118,7 +14119,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="CN1" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
 <label x="200.66" y="124.46" size="1.778" layer="95"/>
 </segment>
@@ -14140,7 +14141,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="UART_TX" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="CN1" gate="G$1" pin="3"/>
 <wire x1="213.36" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <label x="200.66" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -14152,7 +14153,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="UART_CTS" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="CN1" gate="G$1" pin="5"/>
 <wire x1="213.36" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
 <label x="200.66" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -14164,7 +14165,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="CN1" gate="G$1" pin="4"/>
 <wire x1="213.36" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="119.38" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
@@ -14175,7 +14176,6 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="190.5" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="81.28" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U1" pin="VCC"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
 </segment>
