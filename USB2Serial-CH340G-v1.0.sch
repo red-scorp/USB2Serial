@@ -13694,7 +13694,6 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="Q1" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-7" package3d_urn="urn:adsk.eagle:package:11924/1" value="12MHz"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -13792,10 +13791,6 @@ Source: www.kingbright.com</description>
 <instance part="Q1" gate="G$1" x="129.54" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.27" y="77.47" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.08" y="77.47" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R3" gate="G$1" x="137.16" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.6614" y="69.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="140.462" y="69.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C9" gate="G$1" x="121.92" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.539" y="82.804" size="1.778" layer="95" rot="R90"/>
@@ -14059,15 +14054,11 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="129.54" y1="76.2" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="78.74" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
-<junction x="137.16" y="81.28"/>
+<wire x1="129.54" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
 <junction x="129.54" y="81.28"/>
 <label x="139.7" y="81.28" size="1.778" layer="95"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -14079,15 +14070,11 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="129.54" y1="71.12" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="68.58" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<junction x="137.16" y="66.04"/>
+<wire x1="129.54" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
 <junction x="129.54" y="66.04"/>
 <label x="139.7" y="66.04" size="1.778" layer="95"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -14204,6 +14191,12 @@ Source: www.kingbright.com</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,43.18,78.74,CN2,VBUS,XUSB,,,"/>
+<approved hash="106,1,43.18,63.5,USB_SHIELD,,,,,"/>
+<approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
+<approved hash="113,1,187.96,127.582,SJ1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
