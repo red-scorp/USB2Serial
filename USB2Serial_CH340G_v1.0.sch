@@ -33142,6 +33142,7 @@ Source: www.kingbright.com</description>
 <text x="40.64" y="144.78" size="2.54" layer="94">LED indicators</text>
 <text x="175.26" y="144.78" size="2.54" layer="94">UART connector and VCC selection</text>
 <text x="165.1" y="27.94" size="2.54" layer="94">(c) Andriy Golovnya</text>
+<text x="195.58" y="7.62" size="2.54" layer="94">U2S-CH340G-0010</text>
 </plain>
 <instances>
 <instance part="C3" gate="G$1" x="129.54" y="121.92" smashed="yes">
