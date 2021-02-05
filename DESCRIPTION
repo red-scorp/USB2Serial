@@ -1,0 +1,6 @@
+<b>USB2Serial_CH340G_v1.0</b> is a simple USB to Serial board based on CH340G created especially to fit well with Arduino Pro Mini boards.<br/>
+Features:
+<ul>
+<li>based on cheap CH340G chip</li>
+<li>configurable for 5V and 3.3V</li>
+</ul>
