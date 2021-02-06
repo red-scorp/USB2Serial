@@ -21,6 +21,29 @@ Features:
 - configurable for 5V and 3.3V
 
 CAM files are available.
+BOM and PnP files are available.
+
+## USB2Serial_CH340G_v1.1
+
+**USB2Serial_CH340G_v1.1** is an advancement of v1.0 design.
+The only difference here is a row of locked holes to allow to use it without soldering female header on the board.
+
+Preview:
+
+![USB2Serial_CH340G_v1.1 preview](USB2Serial_CH340G_v1.1.png)
+
+[Schematics in PDF format](USB2Serial_CH340G_v1.1.pdf)
+
+Features:
+
+- based on cheap CH340G chip
+- locked pins for Pro Mini
+- configurable for 5V and 3.3V
+
+CAM files are available.
+Use BOM and PnP from v1.0.
+
+## Links
 
 CH340G Driver for Windows: [CH341SER_ZIP](http://www.wch.cn/download/CH341SER_ZIP.html)
 

@@ -4,3 +4,11 @@ Features:
 <li>based on cheap CH340G chip</li>
 <li>configurable for 5V and 3.3V</li>
 </ul>
+<b>USB2Serial_CH340G_v1.1</b> is an advancement of v1.0 design.
+The only difference here is a row of locked holes to allow to use it without soldering female header on the board.<br/>
+Features:
+<ul>
+<li>based on cheap CH340G chip</li>
+<li>locked pins for Pro Mini</li>
+<li>configurable for 5V and 3.3V</li>
+</ul>
