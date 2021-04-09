@@ -1,4 +1,4 @@
-<b>USB2Serial_CH340G_v1.0</b> is a simple USB to Serial board based on CH340G created especially to fit well with Arduino Pro Mini boards.<br/>
+<b>USB2Serial_CH340G_v1.0</b> is a simple USB to Serial board based on CH340G chip, created especially to fit well with Arduino Pro Mini boards.<br/>
 Features:
 <ul>
 <li>based on cheap CH340G chip</li>
@@ -9,6 +9,21 @@ The only difference here is a row of locked holes to allow to use it without sol
 Features:
 <ul>
 <li>based on cheap CH340G chip</li>
+<li>locked pins for Pro Mini</li>
+<li>configurable for 5V and 3.3V</li>
+</ul>
+<b>USB2Serial_CH340G_v1.2</b> is an advancement of v1.1 design.
+The only difference here is an extra capacitor on 5V line.<br/>
+Features:
+<ul>
+<li>based on cheap CH340G chip</li>
+<li>locked pins for Pro Mini</li>
+<li>configurable for 5V and 3.3V</li>
+</ul>
+<b>USB2Serial_FT232RL_v1.0</b> is a simple USB to Serial board based on FT232RL chip, created especially to fit well with Arduino Pro Mini boards.<br/>
+Features:
+<ul>
+<li>based on cheap FT232RL chip</li>
 <li>locked pins for Pro Mini</li>
 <li>configurable for 5V and 3.3V</li>
 </ul>

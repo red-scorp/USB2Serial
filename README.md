@@ -7,7 +7,7 @@ I decided to fix this issue once and for all by creating a simple USB to Serial 
 
 ## USB2Serial_CH340G_v1.0
 
-**USB2Serial_CH340G_v1.0** is a simple USB to Serial board based on CH340G created especially to fit well with Arduino Pro Mini boards.
+**USB2Serial_CH340G_v1.0** is a simple USB to Serial board based on CH340G chip, created especially to fit well with Arduino Pro Mini boards.
 
 Preview:
 
@@ -43,9 +43,47 @@ Features:
 CAM files are available.
 Use BOM and PnP from v1.0.
 
+## USB2Serial_CH340G_v1.2
+
+**USB2Serial_CH340G_v1.2** is an advancement of v1.1 design.
+The only difference here is an extra capacitor on 5V line.
+
+Preview:
+
+![USB2Serial_CH340G_v1.2 preview](USB2Serial_CH340G_v1.2.png)
+
+[Schematics in PDF format](USB2Serial_CH340G_v1.2.pdf)
+
+Features:
+
+- based on cheap CH340G chip
+- locked pins for Pro Mini
+- configurable for 5V and 3.3V
+
+CAM files are available.
+
+## USB2Serial_FT232RL_v1.0
+
+**USB2Serial_FT232RL_v1.0** is a simple USB to Serial board based on FT232RL chip, created especially to fit well with Arduino Pro Mini boards.
+
+Preview:
+
+![USB2Serial_FT232RL_v1.0 preview](USB2Serial_FT232RL_v1.0.png)
+
+[Schematics in PDF format](USB2Serial_FT232RL_v1.0.pdf)
+
+Features:
+
+- based on cheap FT232RL chip
+- locked pins for Pro Mini
+- configurable for 5V and 3.3V
+
+CAM files are available.
+
 ## Links
 
 CH340G Driver for Windows: [CH341SER_ZIP](http://www.wch.cn/download/CH341SER_ZIP.html)
+FT232RL Driver for Windows: [Home/Drivers/VCP Drivers](https://ftdichip.com/drivers/vcp-drivers/)
 
 ## How to help
 
