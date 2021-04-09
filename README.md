@@ -82,8 +82,8 @@ CAM files are available.
 
 ## Links
 
-CH340G Driver for Windows: [CH341SER_ZIP](http://www.wch.cn/download/CH341SER_ZIP.html)
-FT232RL Driver for Windows: [Home/Drivers/VCP Drivers](https://ftdichip.com/drivers/vcp-drivers/)
+- CH340G Driver for Windows: [CH341SER_ZIP](http://www.wch.cn/download/CH341SER_ZIP.html)
+- FT232RL Driver for Windows: [Home/Drivers/VCP Drivers](https://ftdichip.com/drivers/vcp-drivers/)
 
 ## How to help
 
