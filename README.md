@@ -17,7 +17,7 @@ Preview:
 
 Features:
 
-- based on cheap CH340G chip
+- based on very cheap CH340G chip
 - locked pins for Pro Mini
 - configurable for 5V and 3.3V
 
@@ -35,7 +35,7 @@ Preview:
 
 Features:
 
-- based on cheap FT232RL chip
+- based on more common FT232RL chip
 - locked pins for Pro Mini
 - configurable for 5V and 3.3V
 
