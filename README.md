@@ -22,6 +22,7 @@ Features:
 - configurable for 5V and 3.3V
 
 CAM files are available.
+BoM and PnP files for JLCPCB are available.
 
 ## USB2Serial_FT232RL_v1.0
 
@@ -40,6 +41,7 @@ Features:
 - configurable for 5V and 3.3V
 
 CAM files are available.
+BoM and PnP files for JLCPCB are available.
 
 ## Links
 
