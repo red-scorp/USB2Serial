@@ -31413,12 +31413,12 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <instance part="GND2" gate="1" x="50.8" y="66.04" smashed="yes">
 <attribute name="VALUE" x="48.26" y="63.246" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="106.68" y="43.18" smashed="yes">
-<attribute name="VALUE" x="104.14" y="40.386" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="106.68" y="45.72" smashed="yes">
+<attribute name="VALUE" x="104.14" y="42.926" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="96.52" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.139" y="70.104" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="101.219" y="70.104" size="1.778" layer="96" rot="R90"/>
+<instance part="C7" gate="G$1" x="96.52" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.139" y="72.644" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="101.219" y="72.644" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
@@ -31449,8 +31449,8 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <instance part="SUPPLY9" gate="G$1" x="180.34" y="121.92" smashed="yes">
 <attribute name="VALUE" x="177.8" y="124.714" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="91.44" y="66.04" smashed="yes">
-<attribute name="VALUE" x="88.9" y="63.246" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="91.44" y="68.58" smashed="yes">
+<attribute name="VALUE" x="88.9" y="65.786" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="119.38" y="111.76" smashed="yes">
 <attribute name="VALUE" x="116.84" y="108.966" size="1.778" layer="96"/>
@@ -31497,22 +31497,22 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <attribute name="NAME" x="103.124" y="122.301" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.124" y="117.221" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="G$1" x="127" y="60.96" smashed="yes">
-<attribute name="NAME" x="114.3" y="80.01" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="40.64" size="1.778" layer="96"/>
+<instance part="U3" gate="G$1" x="127" y="63.5" smashed="yes">
+<attribute name="NAME" x="114.3" y="82.55" size="1.778" layer="95"/>
+<attribute name="VALUE" x="114.3" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="106.68" y="76.2" smashed="yes">
-<attribute name="VALUE" x="106.68" y="78.994" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="G$1" x="106.68" y="78.74" smashed="yes">
+<attribute name="VALUE" x="106.68" y="81.534" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="154.94" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="158.75" y="74.7014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="158.75" y="79.502" size="1.778" layer="96" rot="R180"/>
+<instance part="R3" gate="G$1" x="154.94" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="158.75" y="77.2414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="158.75" y="82.042" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY5" gate="VDD" x="162.56" y="76.2" smashed="yes">
-<attribute name="VALUE" x="162.56" y="78.994" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY5" gate="VDD" x="162.56" y="78.74" smashed="yes">
+<attribute name="VALUE" x="162.56" y="81.534" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY6" gate="VDD" x="106.68" y="68.58" smashed="yes">
-<attribute name="VALUE" x="106.68" y="71.374" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="VDD" x="106.68" y="71.12" smashed="yes">
+<attribute name="VALUE" x="106.68" y="73.914" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -31545,17 +31545,17 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="45.72" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="106.68" y1="45.72" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<junction x="106.68" y="45.72"/>
-<pinref part="U3" gate="G$1" pin="GND@M"/>
 <wire x1="106.68" y1="48.26" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND@EXP"/>
-<wire x1="109.22" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
 <junction x="106.68" y="48.26"/>
+<pinref part="U3" gate="G$1" pin="GND@M"/>
+<wire x1="106.68" y1="50.8" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="GND@EXP"/>
+<wire x1="109.22" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<junction x="106.68" y="50.8"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="6"/>
@@ -31564,7 +31564,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -31614,13 +31614,13 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <junction x="101.6" y="129.54"/>
 </segment>
 <segment>
+<wire x1="109.22" y1="78.74" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="73.66" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="76.2" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="REGIN"/>
 <pinref part="U3" gate="G$1" pin="VBUS"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
-<junction x="106.68" y="76.2"/>
+<junction x="106.68" y="78.74"/>
 </segment>
 </net>
 <net name="3.3V" class="3">
@@ -31682,8 +31682,8 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
-<label x="96.52" y="63.5" size="1.778" layer="95"/>
+<wire x1="109.22" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<label x="96.52" y="66.04" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="D+"/>
 </segment>
 </net>
@@ -31694,8 +31694,8 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
-<label x="96.52" y="58.42" size="1.778" layer="95"/>
+<wire x1="109.22" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<label x="96.52" y="60.96" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="D-"/>
 </segment>
 </net>
@@ -31713,8 +31713,8 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <label x="200.66" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
-<label x="147.32" y="58.42" size="1.778" layer="95"/>
+<wire x1="147.32" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="147.32" y="60.96" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="DTR"/>
 </segment>
 </net>
@@ -31725,8 +31725,8 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <label x="200.66" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="50.8" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
-<label x="147.32" y="50.8" size="1.778" layer="95"/>
+<wire x1="147.32" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<label x="147.32" y="53.34" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="RXD"/>
 </segment>
 <segment>
@@ -31742,8 +31742,8 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <label x="200.66" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
-<label x="147.32" y="53.34" size="1.778" layer="95"/>
+<wire x1="147.32" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
+<label x="147.32" y="55.88" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="TXD"/>
 </segment>
 <segment>
@@ -31759,8 +31759,8 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <label x="200.66" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
-<label x="147.32" y="45.72" size="1.778" layer="95"/>
+<wire x1="147.32" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
+<label x="147.32" y="48.26" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="CTS"/>
 </segment>
 </net>
@@ -31801,22 +31801,22 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <segment>
 <pinref part="U3" gate="G$1" pin="!RST"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="VDD" pin="VDD"/>
-<wire x1="106.68" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
-<junction x="106.68" y="68.58"/>
+<wire x1="106.68" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
+<junction x="106.68" y="71.12"/>
 </segment>
 </net>
 </nets>
