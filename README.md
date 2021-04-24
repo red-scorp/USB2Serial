@@ -43,10 +43,29 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
+## USB2Serial_CP2102_v1.0
+
+**USB2Serial_CP2102_v1.0** is a simple USB to Serial board based on CP2102 chip, created especially to fit well with Arduino Pro Mini boards.
+
+Preview:
+
+![USB2Serial_CP2102_v1.0 preview](USB2Serial_CP2102_v1.0.png)
+
+[Schematics in PDF format](USB2Serial_CP2102_v1.0.pdf)
+
+Features:
+
+- based on more common CP2102 chip
+- locked pins for Pro Mini
+- configurable for 5V and 3.3V
+
+CAM files are available.
+
 ## Links
 
 - CH340G Driver for Windows: [CH341SER_ZIP](http://www.wch.cn/download/CH341SER_ZIP.html)
 - FT232RL Driver for Windows: [Home/Drivers/VCP Drivers](https://ftdichip.com/drivers/vcp-drivers/)
+- CP2102 Driver for Windows: [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
 ## How to help
 

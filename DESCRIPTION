@@ -14,3 +14,10 @@ Features:
 <li>locked pins for Pro Mini</li>
 <li>configurable for 5V and 3.3V</li>
 </ul>
+<b>USB2Serial_CP2102_v1.0</b> is a simple USB to Serial board based on CP2102 chip, created especially to fit well with Arduino Pro Mini boards.<br/>
+Features:
+<ul>
+<li>based on cheap CP2102 chip</li>
+<li>locked pins for Pro Mini</li>
+<li>configurable for 5V and 3.3V</li>
+</ul>
