@@ -11,9 +11,9 @@ I decided to fix this issue once and for all by creating a simple USB to Serial 
 
 Preview:
 
-![USB2Serial_CH340G_v1.2 preview](USB2Serial_CH340G_v1.2.png)
+![USB2Serial_CH340G_v1.2 preview](img/USB2Serial_CH340G_v1.2.png)
 
-[Schematics in PDF format](USB2Serial_CH340G_v1.2.pdf)
+[Schematics in PDF format](doc/USB2Serial_CH340G_v1.2.pdf)
 
 Features:
 
@@ -30,9 +30,9 @@ BoM and PnP files for JLCPCB are available.
 
 Preview:
 
-![USB2Serial_FT232RL_v1.0 preview](USB2Serial_FT232RL_v1.0.png)
+![USB2Serial_FT232RL_v1.0 preview](img/USB2Serial_FT232RL_v1.0.png)
 
-[Schematics in PDF format](USB2Serial_FT232RL_v1.0.pdf)
+[Schematics in PDF format](doc/USB2Serial_FT232RL_v1.0.pdf)
 
 Features:
 
@@ -49,9 +49,9 @@ BoM and PnP files for JLCPCB are available.
 
 Preview:
 
-![USB2Serial_CP2102_v1.0 preview](USB2Serial_CP2102_v1.0.png)
+![USB2Serial_CP2102_v1.0 preview](img/USB2Serial_CP2102_v1.0.png)
 
-[Schematics in PDF format](USB2Serial_CP2102_v1.0.pdf)
+[Schematics in PDF format](doc/USB2Serial_CP2102_v1.0.pdf)
 
 Features:
 
